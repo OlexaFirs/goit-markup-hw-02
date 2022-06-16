@@ -25,9 +25,18 @@ body {
     font-weight: 500;
 }
 
-.nav-list-link{
-    color: inherit;
-}
+.nav-list-link
+{color: inherit;}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.address-map-link:hover,
+.address-map-link:focus,
+.adress-contact-link:hover,
+.adress-contact-link:focus
+{color: #2196f3;}
 
 .contact{
     color: #757575;
@@ -118,6 +127,26 @@ ul{
     text-align: center;
 }
 
+/* Page portfolio */
+
+.filter-btn{
+    background-color: #f5f4fA;
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+
+/* Page portfolio */
+
+
+
 footer{
     background-color: #2f303a;
 }
@@ -142,30 +171,4 @@ footer{
     color: inherit;
 }
 
-
-
-
-
-
-
-
-/* fonts index.html
-logo - Raleway 700 #000000 #2196F3
-main fonts - p Roboto 400 #757575
-accent fonts - h1 Roboto 900 #FFFFFF
-accent fonts - h2-h3 Roboto 700 #FFFFFF #212121
-accent fonts names - h3 Roboto 500 #212121
-footer - addres Roboto 400 #FFFFFF
-        mail-tel - Roboto 400 #FFFFFF 60%
-/*
-
-/* fonts portfolio.html
-logo - Raleway 700 #000000 #2196F3
-main fonts - p Roboto 400 #757575
-accent fonts - h1 Roboto 900 #FFFFFF
-accent fonts - h2-h3 Roboto 700 #FFFFFF #212121
-accent fonts names - h3 Roboto 500 #212121
-footer - addres Roboto 400 #FFFFFF
-        mail-tel - Roboto 400 #FFFFFF 60%
-/*
 
