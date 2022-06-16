@@ -1,3 +1,90 @@
 body {
-    background-color: tomato;
+
+    background-color: #fff;
+    color: #757575;
+    font-family: 'Roboto','Raleway', sans-serif;
+    font-weight: 400;
 }
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-web{
+    color: #2196f3;
+}
+
+.logo-studio{
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+.main-section{
+    background-color: #2f303a;
+}
+
+.main-title{
+    color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-btn{
+    background-color: #2196f3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.hero{
+    background-color: #fff;
+
+}
+
+.hero-title{
+    color: #fff;
+
+}
+
+
+
+
+
+
+/* fonts index.html
+logo - Raleway 700 #000000 #2196F3
+main fonts - p Roboto 400 #757575
+accent fonts - h1 Roboto 900 #FFFFFF
+accent fonts - h2-h3 Roboto 700 #FFFFFF #212121
+accent fonts names - h3 Roboto 500 #212121
+footer - addres Roboto 400 #FFFFFF
+        mail-tel - Roboto 400 #FFFFFF 60%
+/*
+
+/* fonts portfolio.html
+logo - Raleway 700 #000000 #2196F3
+main fonts - p Roboto 400 #757575
+accent fonts - h1 Roboto 900 #FFFFFF
+accent fonts - h2-h3 Roboto 700 #FFFFFF #212121
+accent fonts names - h3 Roboto 500 #212121
+footer - addres Roboto 400 #FFFFFF
+        mail-tel - Roboto 400 #FFFFFF 60%
+/*
+
