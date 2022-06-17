@@ -65,6 +65,10 @@ text-decoration: none;
     color: var(--primary-white-color)
 }
 
+.nav-list-link.current:hover{
+    color: var(--primary-white-color);
+}
+
 .nav-list-link:hover,
 .nav-list-link:focus,
 .contact-link:hover,
