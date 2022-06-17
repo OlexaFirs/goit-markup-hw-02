@@ -8,6 +8,8 @@
 /* hover main btn - #188ce8 */
 
 
+
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -58,7 +60,7 @@ body {
 text-decoration: none;
 }
 
-.current{
+.nav-list-link.current{
     background-color: var(--accent-color);
     color: var(--primary-white-color)
 }
@@ -128,7 +130,7 @@ text-decoration: none;
     list-style: none;
 }
 
-.work-title, .team-title{
+.section-title{
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -187,6 +189,23 @@ text-decoration: none;
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     }
+
+.filter-list{
+    list-style: none;
+}
+
+.filter-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.filter-descr{
+    font-size: 16px;
+    line-height: 1.88;
+}
 
 footer{
     background-color: #2f303a;
